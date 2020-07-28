@@ -11,8 +11,7 @@
 
   <name>MockWebserver extensions Kotlin</name>
   <description>
-
-    Simplifies setup of MockMvc tests combined with generation of restdocs and Spring Cloud Contract stubs
+    Extentions to ease use of MockWebServer and Wiremock Contract verification in Spring
   </description>
   <url>https://github.com/Skatteetaten/mockwebserver-extensions-kotlin</url>
 
