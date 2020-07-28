@@ -2,6 +2,8 @@
 
 This project was split out form [mockmvc-extensions-kotlin](http://github.com/Skatteetaten/mockmvc-extensions-kotlin) since we needed an extension without spring-web.
 
+The code for this project is developed and built from and internal repository and synced to github for releases. 
+
 ## Custom Dispatcher DSL
 An alternate way of mocking is by using our httpMockServer dsl that uses a custom dispatcher.
 ```
