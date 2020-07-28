@@ -2,7 +2,6 @@
 def config = [
         scriptVersion  : 'v7',
         iqOrganizationName: "Team AOS",
-        credentialsId: "github",
         deployTo: 'maven-central',
         openShiftBuild: false,
         javaVersion : '8',
@@ -10,6 +9,11 @@ def config = [
         pipelineScript : 'https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.git',
         versionStrategy : [
                 [branch: 'master', versionHint: '1']
+        ],
+        github                 : [
+            enabled              : true,
+            push                 : env.BRANCH_NAME == "master",
+            repoUrl              : "https://github.com/Skatteetaten/mockwebserver-extensions-kotlin.git"
         ]
 ]
 fileLoader.withGit(config.pipelineScript, config.scriptVersion) {
