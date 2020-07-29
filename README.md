@@ -64,7 +64,6 @@ fun tearDown() {
 }
 ```
 
-
 ## WireMock
 
 For information on how to setup the contract consumer see the [Spring Cloud Contract documentation](https://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html#_client_side)
