@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 def config = [
-        scriptVersion  : 'feature/AOS-4721-sync-github',
+        scriptVersion  : 'v7',
         iqOrganizationName: "Team AOS",
         deployTo: 'maven-central',
         openShiftBuild: false,
